@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Ubuntu:wght@300&display=swap');
+font-family: 'Inconsolata', monospace;
+font-family: 'Playfair Display', serif;
+font-family:  Ubuntu sans-serif;
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+.container1{
+margin: 70px 60px;
+display: flex;
+justify-content: space-between;
+
+
+}
+.logo{
+
+	background-image: url(../image/logo-min.png);
+	width:30%;
+	background-position: left; 
+	background-repeat: no-repeat;
+
+}
+.navbar {
+
+}
+.navbar ul{
+
+}
+.navbar ul li{
+	display: inline-block;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: #626262;
+	font-size: 14px;
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	margin-left: 125px;
+	
+}
+.navbar ul li a:hover{
+	color: #000;
+	transition: .3s;
+}
+section{
+	margin: 70px 60px 0px;
+}
+.banner{
+	background-image: url(../image/minimo-min.jpg);
+	width: 100%;
+	height: 515px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	
+}
+.container2,.container3{
+	margin: 110px 65px 0px;
+}
+h3{
+	font-size: 14px;
+	font-family:  'Ubuntu', sans-serif;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #b4ad9e;
+
+}
+h1{
+	font-size: 30px;
+	font-family:  'Playfair Display',serif;
+	font-weight: 400;
+	color: #626262;
+}
+p{
+
+	font-size: 14px;
+	font-family:  'Playfair Display',serif;
+	font-weight: 400;
+	color: #626262;
+}
+.container2 h3{
+	margin-top: 55px;
+}
+.container3{
+	display: flex;
+	justify-content: space-between;
+
+}
+.lifestyle{
+	width: 48%;
+}
+.thumbnill img{
+	height: 100%;
+	width: 100%;
+}
+.lifestyle h3{
+	margin-top: 40px;
+}
+.lifestyle h1{
+	margin-bottom: 47px;
+}
+.newsletter{
+	margin:125px 0px ;
+	background-color: #f0f0f0;
+	min-height: 250px;
+
+}
+.newsletter h1{
+	color:#333333;
+	text-align: center;
+	padding: 75px 0px 20px;
+	
+}
+.newsletter form{
+	width: 400px;
+	margin: 0px auto;
+	padding: 50px 0px;
+}
+input[type="email"]{
+	width: 100%;
+	background-color: transparent;
+	border:none;
+	border-bottom: 2px solid black;
+	padding: 10px 0px;
+
+}
+input[type="email"]::placeholder{
+	background-color: transparent;
+	font-family:'Playfair Display', serif;
+	font-size: 14px; 
+
+}
+input[type="email"]:focus{
+	outline: 0;
+	border-color: grey;
+}
+form{
+	position: relative;
+	
+}
+ .button-img{
+	border:none;
+	cursor: pointer;
+	position: absolute;
+	top: 55px;
+	right: -5px;
+}
+.button-img:focus{
+	outline: none;
+}
+.button-2{
+	padding: 25px 40px;
+	cursor: pointer;
+	background-color: transparent;
+	font-size: 20px;
+		font-family:'Playfair Display', serif;
+		text-align: center;
+		border: 1px solid black;
+		
+
+}
+.button-2:focus{
+	outline: none;
+
+}
+.button-2:hover{
+	background-color: #f0f0f0;
+	font-size: 18px;
+}
+.load{
+	margin: 150px auto 700px;
+	text-align: center;
+		
+}
+.foot{
+	background-color:  #f0f0f0;
+	padding: 25px 0px;
+	display: flex;
+	justify-content: space-between;
+		font-family:'Playfair Display', serif;
+	text-align: center;
+}
+.box1 {
+	margin-left: 120px;
+}
+.box1 ul li{
+	display: inline-block;
+}
+.box1 ul li a{
+	color:#000000;
+text-decoration: none;
+margin: 10px ;
+
+}
+.icons{
+	margin-right: 50px;
+}
+.icons ul li{
+	display: inline-block;
+}
+.icons ul li a{
+	color: #626262;
+text-decoration: none;
+margin: 10px ;
+font-size: 20px;
+}
